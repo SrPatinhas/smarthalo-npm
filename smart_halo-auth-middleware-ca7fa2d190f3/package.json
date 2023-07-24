@@ -1,0 +1,39 @@
+{
+  "name": "@smarthalo/auth-middleware",
+  "version": "2.2.0",
+  "description": "A middy middleware used to authenticate users in microservices ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/smart_halo/auth-middleware.git"
+  },
+  "keywords": [
+    "auth",
+    "middy"
+  ],
+  "author": "adrien@smarthalo.bike",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/smart_halo/auth-middleware#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "http-errors": "^1.7.3"
+  },
+  "devDependencies": {
+    "@middy/core": "^1.5.2",
+    "@smarthalo/logger": "git+ssh://git@bitbucket.org/smart_halo/logger.git#1.0.0",
+    "@types/aws-lambda": "^8.10.71",
+    "@types/http-errors": "^1.6.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.19.16",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^26.5.0",
+    "typescript": "^3.9.7"
+  }
+}

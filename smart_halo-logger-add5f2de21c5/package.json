@@ -1,0 +1,27 @@
+{
+  "name": "@smarthalo/logger",
+  "version": "1.0.0",
+  "description": "A logger abstraction",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/smart_halo/logger.git"
+  },
+  "keywords": [
+    "logger",
+    "error",
+    "warning",
+    "info",
+    "debug"
+  ],
+  "author": "adrien@smarthalo.bike",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/smart_halo/logger#readme",
+  "dependencies": {
+    "@types/node": "^12.6.8"
+  }
+}

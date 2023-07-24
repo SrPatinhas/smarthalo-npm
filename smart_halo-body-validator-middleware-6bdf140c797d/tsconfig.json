@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": { "*": ["types/*"] },
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "target": "es2015",
+    "outDir": "./",
+    "rootDir": "./src",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "esModuleInterop": true,
+  },
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "*/**.spec.ts"
+   ]
+}

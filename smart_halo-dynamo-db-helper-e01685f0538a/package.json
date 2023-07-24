@@ -1,0 +1,34 @@
+{
+  "name": "@smarthalo/dynamo-db-helper",
+  "version": "1.0.0",
+  "description": "A DDB abstraction",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/smart_halo/dynamo-db-helper.git"
+  },
+  "keywords": [
+    "dynamo",
+    "db",
+    "no-sql"
+  ],
+  "author": "adrien@smarthalo.bike",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/smart_halo/logger#readme",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "jest": "^25.3.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@smarthalo/logger": "git+ssh://git@bitbucket.org/smart_halo/logger.git#1.0.0",
+    "aws-sdk": "^2.525.0"
+  }
+}
